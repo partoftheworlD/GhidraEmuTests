@@ -60,7 +60,7 @@ def main():
 
     emuHelper.writeMemory(getAddress(0xDEAD0000), b'\x68\x65\x6c\x6c\x6f\x20\x67\x69\x74\x68\x75\x62')
 
-    # Для чтение используем emuHelper.readMemory
+    # Для чтения используем emuHelper.readMemory
     str_0 = emuHelper.readMemory(getAddress(0xDEAD0000), 12)
 
     t = []
